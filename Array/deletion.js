@@ -7,3 +7,13 @@ for(let i=position;i<array.length;i++){
 }
 array.length = array.length-1;
 console.log('array after deleting the element from the given index is: ', array)
+
+
+//deletion through predefined keyword "splice"
+//array2.splice("starting position", "number of elements wanted to remove")
+let array2 = [23, 32, 33, 22, 43, 34, 44]
+let position2 = 3;
+array2.splice(position2,1);
+console.log("array2 is: ",array2 );
+
+
