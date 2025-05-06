@@ -11,3 +11,10 @@ for(let i=0;i<array2.length;i++){
     array3[array1.length+i] = array2[i];
 }
 console.log("After merging the array3 is: ", array3);
+
+
+//shortcut methodology
+
+let array4 = [];
+array4 = [...array1, ...array2]
+console.log("array4 is: ", array4)
